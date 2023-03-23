@@ -1,4 +1,4 @@
-<!-- THE CODE FOR THE HOMEPAGE -->
+<!-- THE CODE FOR THE ABOUT PAGE -->
 
 
 <!DOCTYPE html>
@@ -6,26 +6,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <meta name="page-name" content="home">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-    <title>We The Heart</title>
+    <link rel="stylesheet" href="/styles.css">
+    <meta name="page-name" content="about">
+    <title>About</title>
 </head>
 <body>
     <div id="header-placeholder"></div>
-
-    <!-- Image Banner -->
-    <div class="banner">
-        <h1>We The Heart</h1>
-    </div>
-
-
     <!-- Add your content here -->
 
     <!-- This script bit fetches the header from the header file -->
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            fetch('header.html')
+            fetch('/header.html')
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('header-placeholder').innerHTML = data;
