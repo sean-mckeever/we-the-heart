@@ -80,3 +80,13 @@ nav a.active {
     top: 64%;
     right: 43%;
 }
+
+@media (max-width: 767px) {
+    .banner {
+        height: 400px; /* Adjust the height for mobile devices */
+    }
+    
+    .banner h1 {
+        font-size: 24px; /* Adjust the header text size for mobile devices */
+    }
+}
