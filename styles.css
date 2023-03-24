@@ -78,7 +78,6 @@ nav a.active {
 .banner h1 {
     position: absolute;
     top: 64%;
-    right: 43%;
 }
 
 @media (max-width: 767px) {
